@@ -1,0 +1,6 @@
+body {
+  text-align: center; /* optional, centers text within body */
+  width: 50%; /* or any other desired width */
+  margin: 0 auto; /* center horizontally */
+  background-color: bisque;
+}
