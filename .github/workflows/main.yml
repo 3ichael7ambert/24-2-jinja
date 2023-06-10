@@ -26,6 +26,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          cd flask-madlibs
           pip install --upgrade pip
           pip install -r requirements.txt
 
@@ -33,4 +34,6 @@ jobs:
         run: pytest
 
       - name: Run Flask application
-        run: python app.py
+        run: |
+          cd flask-madlibs
+          python app.py
